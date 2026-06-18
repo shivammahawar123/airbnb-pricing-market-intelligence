@@ -54,6 +54,8 @@ data/raw/*.csv
 data/processed/listings_clean.csv
 data/processed/reviews_clean.csv
 data/processed/fact_reviews.csv
+data/processed/dim_host.csv
+data/processed/dim_listing.csv
 
 # Power BI dashboard
 powerbi/*.pbix
