@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Power BI Temporary Files
+*.pbix.tmp
+
+# Logs
+*.log
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Large datasets
+data/raw/*.csv
+
+# Large processed datasets
+data/processed/listings_clean.csv
+data/processed/reviews_clean.csv
+data/processed/fact_reviews.csv
+
+# Power BI dashboard
+powerbi/*.pbix
