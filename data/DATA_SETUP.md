@@ -200,13 +200,26 @@ powerbi/
 
 # Step 6: Refresh Dashboard
 
-1. Open the PBIX file.
-2. Verify file paths if necessary.
-3. Click Refresh.
+1. Open `Airbnb_Pricing_and_Market_Intelligence_Dashboard.pbix`.
+
+2. If Power BI cannot locate the processed datasets:
+
+   * Go to **Transform Data**
+   * Open **Data Source Settings**
+   * Select the missing data source
+   * Click **Change Source**
+   * Navigate to the project's `data/processed/` folder
+
+3. Click **Refresh**.
+
 4. Allow Power BI to reload all datasets.
+
 5. Save the dashboard.
 
+The existing data model, table relationships, DAX measures, calculated columns, and dashboard visuals will remain intact. Only the data source path is updated.
+
 The dashboard should now function exactly as shown in the project screenshots and documentation.
+
 
 ---
 
